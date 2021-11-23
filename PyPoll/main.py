@@ -1,4 +1,18 @@
-* In this challenge, you are tasked with helping a small, rural town modernize its vote counting process.
+import os
+import csv
+
+file_path = os.path.join(".", "Resources","election_data.csv")
+
+with open(file_path,"r") as input_file:
+    content = csv.reader(input_file)
+    header = next(content)
+    
+    total_votes =  0
+    candidates = {}
+    for row in content
+        total_votes += 1
+        if row[2] is not in candidates:
+            candidates
 
 * You will be give a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
 
