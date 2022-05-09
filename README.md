@@ -2,7 +2,7 @@
 
 ## Background
 
-## PyBank
+## [PyBank](PyBank\main.py)
 
 * In this assigment, a Python script was developed for analyzing the financial records of a company. A set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`. 
 
@@ -17,7 +17,7 @@ Greatest Increase in Profits: Feb-2012 ($1926159)
 Greatest Decrease in Profits: Sep-2013 ($-2196167)
 ```
 
-## PyPoll
+## [PyPoll](PyPoll\main.py)
 
 * This assignment is to help a small, rural town modernize its vote counting process.
 
