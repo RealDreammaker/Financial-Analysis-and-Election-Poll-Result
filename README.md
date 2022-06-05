@@ -2,9 +2,9 @@
 
 ## Background
 
-## [PyBank](PyBank\main.py)
+## PyBank
 
-* In this assignment, a Python script was developed for analysing the financial records of a company. A set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`. 
+* In this assignment, a [Python script](PyBank/main.py) was developed for analysing the financial records of a company. A set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv) is composed of two columns: `Date` and `Profit/Losses`. 
 
 * The final script can be run to print the analysis to the terminal and export a text file with the results:
 ```
@@ -17,11 +17,11 @@ Greatest Increase in Profits: Feb-2012 ($1926159)
 Greatest Decrease in Profits: Sep-2013 ($-2196167)
 ```
 
-## [PyPoll](PyPoll\main.py)
+## PyPoll
 
 * This assignment is to help a small, rural town modernize its vote counting process.
 
-* A set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv) is composed of three columns: `Voter ID`, `County`, and `Candidate`. The task is to create a Python script that analyses the votes and  export a text file with the results:
+* A set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv) is composed of three columns: `Voter ID`, `County`, and `Candidate`. The task is to create [a Python script](PyPoll/main.py) that analyses the votes and  export a text file with the results:
 ``` 
 Election Results
 -------------------------
